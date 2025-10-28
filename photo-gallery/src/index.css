@@ -1,0 +1,70 @@
+body {
+  font-family: "Times New Roman", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+.gallery-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.gallery-heading {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.photo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.photo-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.photo-img {
+  width: 180px;
+  height: 120px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+}
+
+.photo-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.author-text {
+  font-size: 16px;
+  color: #000;
+}
+
+.like-section {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #007bff;
+  transition: transform 0.2s;
+}
+
+.like-section:hover {
+  transform: scale(1.1);
+}
+
+.like-icon {
+  margin-left: 8px;
+}
+
+.like-count {
+  margin-left: 4px;
+  font-weight: bold;
+}
